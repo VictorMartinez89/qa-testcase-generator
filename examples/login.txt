@@ -1,0 +1,10 @@
+As a registered customer of an online pharmacy,
+I want to log in with my email and password,
+so that I can see my prescriptions and order history.
+
+Acceptance criteria:
+- Email must be a valid email address.
+- Password must be 8 to 64 characters.
+- After 5 failed attempts the account is locked for 15 minutes.
+- A "Forgot password?" link sends a reset email.
+- On success the user lands on /dashboard.

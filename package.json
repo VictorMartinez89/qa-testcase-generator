@@ -1,0 +1,23 @@
+{
+  "name": "qa-testcase-generator",
+  "version": "0.1.0",
+  "description": "Generate test cases and Cypress/Selenium code from a user story with Claude",
+  "main": "src/generator.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node bin/cli.js examples/login.txt --mock --out output"
+  },
+  "keywords": [],
+  "author": "Victor Alfonso Martínez Solarte",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0"
+  },
+  "bin": {
+    "qa-gen": "bin/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
