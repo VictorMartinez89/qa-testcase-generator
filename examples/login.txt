@@ -1,6 +1,6 @@
-As a registered customer of an online pharmacy,
+As a registered customer of an online bookstore,
 I want to log in with my email and password,
-so that I can see my prescriptions and order history.
+so that I can see my orders and wish list.
 
 Acceptance criteria:
 - Email must be a valid email address.
